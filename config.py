@@ -21,5 +21,5 @@ ADMINS.append(Id Owned Id)
 LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1001810183335")) 
 UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "worldofmovies8") # For Force Subscription
 BROADCAST_AS_COPY = os.environ.get('BROADCAST_AS_COPY', "True") # true if forward should be avoided
-WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", '') # image when someone hit /start # image when someone hit /start
+WELCOME_IMAGE = os.environ.get("WELCOME_IMAGE", 'https://telegra.ph/file/b39e79c0c9730d0a896be.jpg') # image when someone hit /start # image when someone hit /start
 LINK_BYPASS = "False"
