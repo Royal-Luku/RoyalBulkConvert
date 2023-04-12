@@ -10,7 +10,7 @@ load_dotenv()
 API_ID = int(os.getenv("API_ID", "13556430"))
 API_HASH = os.environ.get("API_HASH", "3531771c0d58b9ffc44d12f38c5edbf5")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "5886907575:AAG4LY3SQh3aq9zLfM-qS3oKnaXQuPeF-_s")
-ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("1782834874")] if os.environ.get("ADMINS") else []
+ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("OWNER_ID")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Royal")
 DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://RoyalDwip:RoyalDwip@cluster0.0sp6pvf.mongodb.net/?retryWrites=true&w=majority") 
